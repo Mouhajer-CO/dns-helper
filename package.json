@@ -1,0 +1,13 @@
+{
+  "name": "dns-helper",
+  "description": "DNS node helper",
+  "author": "Mouhajer",
+  "license": "MIT",
+  "main": "./dnsHelper.mjs",
+  "scripts": {
+    "exec": "node ./dnsHelper.mjs"
+  },
+  "dependencies": {
+    "node-dig-dns": "^0.3.3"
+  }
+}
